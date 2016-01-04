@@ -1,0 +1,34 @@
+{
+  "name": "react-responsive-carousel-modified",
+  "version": "2.0.3",
+  "description": "React Responsive Carousel-Modified",
+  "author": {
+    "name": "Leandro Augusto Lemos",
+    "url": "http://leandrowd.github.io/"
+  },
+  "keywords": [
+    "react",
+    "carousel",
+    "gallery",
+    "image-gallery",
+    "slider",
+    "responsive",
+    "swipe",
+    "mobile-friendly",
+    "react-component",
+    "view"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cvhooper22/react-responsive-carousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leandrowd/react-responsive-carousel/issues"
+  },
+  "homepage": "http://leandrowd.github.io/react-responsive-carousel/",
+  "dependencies": {
+    "classnames": "^2.1.1"
+  }
+}
