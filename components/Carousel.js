@@ -346,7 +346,7 @@ module.exports = React.createClass({displayName: "exports",
 		
 		return (
 			React.createElement("div", {className: klass.CAROUSEL(this.isSlider)}, 
-				React.createElement("button", {className: klass.ARROW_LEFT(!hasPrev), onClick: this.slideRight}), 
+				React.createElement("button", {type: 'button', className: klass.ARROW_LEFT(!hasPrev), onClick: this.slideRight}), 
 				
 				React.createElement("div", {className: klass.WRAPPER(this.isSlider), ref: "itemsWrapper"}, 
 					React.createElement("ul", {className: klass.SLIDER(this.isSlider, this.state.swiping), 
@@ -359,7 +359,7 @@ module.exports = React.createClass({displayName: "exports",
 					)
 				), 
 
-				React.createElement("button", {className: klass.ARROW_RIGHT(!hasNext), onClick: this.slideLeft}), 
+				React.createElement("button", {type: 'button', className: klass.ARROW_RIGHT(!hasNext), onClick: this.slideLeft}), 
 				
 				 this.renderControls(), 
 				 this.renderStatus() 
